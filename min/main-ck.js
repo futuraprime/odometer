@@ -1,0 +1,1 @@
+var age=document.getElementById("age"),rel_to_sun=document.getElementById("rel_to_sun");

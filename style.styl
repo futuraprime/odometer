@@ -1,0 +1,48 @@
+@import 'nib';
+
+body {
+  font-family: kepler-std, Georgia, serif;
+}
+
+.odometer-wheel {
+  font-family: 'calluna-sans';
+  font-size: 48px;
+  position: relative;
+  width: 40px;
+  height: 60px;
+  border: 1px solid #ccc;
+  // overflow: hidden;
+
+  .digits {
+    transform-origin: 50% 50% 0px;
+    transform: rotate3d(0,0,0, 90deg);
+  }
+
+  span {
+    position: absolute;
+    top: 0; left: 0;
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: block;
+  }
+ 
+
+  .number {
+    transform-origin: 50% 50% -100px;
+    backface-visibility: hidden;
+  }
+  
+  m_numberTurn = 36deg;
+
+  .one   { transform: rotate3d(1,0,0, m_numberTurn * 1); }
+  .two   { transform: rotate3d(1,0,0, m_numberTurn * 2); }
+  .three { transform: rotate3d(1,0,0, m_numberTurn * 3); }
+  .four  { transform: rotate3d(1,0,0, m_numberTurn * 4); }
+  .five  { transform: rotate3d(1,0,0, m_numberTurn * 5); }
+  .six   { transform: rotate3d(1,0,0, m_numberTurn * 6); }
+  .seven { transform: rotate3d(1,0,0, m_numberTurn * 7); }
+  .eight { transform: rotate3d(1,0,0, m_numberTurn * 8); }
+  .nine  { transform: rotate3d(1,0,0, m_numberTurn * 9); }
+}
