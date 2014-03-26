@@ -5,6 +5,8 @@
   <script type="text/javascript" src="//use.typekit.net/kso0koy.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="deps/odometer/odometer.js"></script>
+  <script src="deps/momentjs/moment.js"></script>
+  <script src="deps/lodash/dist/lodash.js"></script>
   <link rel="stylesheet" href="deps/odometer/themes/odometer-theme-minimal.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,11 +14,18 @@
   <h1>Universal Odometer</h1>
   
   <input type="number" name="age" id="age">
-  <label for="age">How old are you?</label>
+  <label for="age">How old are you?</label><br>
+  <input type="date" id="dob" name="dob"/>
+  <label for="dob">When were you born? (not stored)</label>
 
-  <div id="rel_to_sun" class="odometer">0</div>
-  <div id="rel_to_galaxy" class="odometer">0</div>
-  <div id="rel_to_cbe" class="odometer">0</div>
+  <div class="odometers">
+    Relative to the Sun
+    <div class="odometer-line"><span id="rel_to_sun" class="odometer">0</span> miles</div>
+    Relative to the Milky Way
+    <div class="odometer-line"><span id="rel_to_galaxy" class="odometer">0</span> miles</div>
+    Relative to the Universe
+    <div class="odometer-line"><span id="rel_to_cbe" class="odometer">0</span> miles</div>
+  </div>
 
   <script src="js/main.js"></script>  
 </body>

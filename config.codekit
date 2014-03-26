@@ -2,6 +2,817 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16877",
 "files": {
+	"\/deps\/lodash\/dist\/lodash.compat.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/lodash\/dist\/lodash.compat.js",
+		"outputAbbreviatedPath": "\/deps\/lodash\/dist\/min\/lodash.compat-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/lodash\/dist\/lodash.compat.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/lodash\/dist\/lodash.compat.min.js",
+		"outputAbbreviatedPath": "\/deps\/lodash\/dist\/min\/lodash.compat.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/lodash\/dist\/lodash.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/lodash\/dist\/lodash.js",
+		"outputAbbreviatedPath": "\/deps\/lodash\/dist\/min\/lodash-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/lodash\/dist\/lodash.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/lodash\/dist\/lodash.min.js",
+		"outputAbbreviatedPath": "\/deps\/lodash\/dist\/min\/lodash.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/lodash\/dist\/lodash.underscore.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/lodash\/dist\/lodash.underscore.js",
+		"outputAbbreviatedPath": "\/deps\/lodash\/dist\/min\/lodash.underscore-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/lodash\/dist\/lodash.underscore.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/lodash\/dist\/lodash.underscore.min.js",
+		"outputAbbreviatedPath": "\/deps\/lodash\/dist\/min\/lodash.underscore.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ar-ma.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ar-ma.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ar-ma-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ar.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ar-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/bg.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/bg.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/bg-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/br.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/br.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/br-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/bs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/bs.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/bs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ca.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ca.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ca-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/cs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/cs.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/cs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/cv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/cv.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/cv-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/cy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/cy.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/cy-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/da.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/da.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/da-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/de.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/de.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/de-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/el.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/el.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/el-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/en-au.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/en-au.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/en-au-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/en-ca.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/en-ca.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/en-ca-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/en-gb.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/en-gb.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/en-gb-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/eo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/eo.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/eo-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/es.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/es.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/es-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/et.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/et.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/et-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/eu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/eu.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/eu-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/fa.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/fa.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/fa-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/fi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/fi.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/fi-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/fo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/fo.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/fo-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/fr-ca.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/fr-ca.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/fr-ca-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/fr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/fr.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/fr-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/gl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/gl.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/gl-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/he.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/he.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/he-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/hi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/hi.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/hi-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/hr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/hr.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/hr-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/hu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/hu.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/hu-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/hy-am.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/hy-am.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/hy-am-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/id.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/id.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/id-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/is.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/is.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/is-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/it.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/it.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/it-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ja.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ja.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ja-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ka.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ka.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ka-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ko.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ko.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ko-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/lb.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/lb.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/lb-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/lt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/lt.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/lt-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/lv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/lv.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/lv-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/mk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/mk.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/mk-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ml.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ml.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ml-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/mr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/mr.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/mr-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ms-my.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ms-my.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ms-my-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/nb.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/nb.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/nb-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ne.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ne.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ne-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/nl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/nl.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/nl-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/nn.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/nn.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/nn-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/pl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/pl.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/pl-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/pt-br.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/pt-br.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/pt-br-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/pt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/pt.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/pt-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ro.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ro.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ro-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/rs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/rs.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/rs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ru.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ru.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ru-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/sk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/sk.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/sk-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/sl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/sl.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/sl-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/sq.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/sq.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/sq-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/sv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/sv.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/sv-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/ta.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/ta.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/ta-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/th.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/th.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/th-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/tl-ph.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/tl-ph.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/tl-ph-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/tr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/tr.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/tr-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/tzm-la.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/tzm-la.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/tzm-la-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/tzm.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/tzm.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/tzm-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/uk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/uk.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/uk-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/uz.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/uz.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/uz-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/vn.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/vn.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/vn-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/zh-cn.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/zh-cn.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/zh-cn-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/lang\/zh-tw.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/lang\/zh-tw.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/lang\/min\/zh-tw-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/min\/langs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/min\/langs.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/min\/min\/langs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/min\/langs.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/min\/langs.min.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/min\/min\/langs.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/min\/moment-with-langs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/min\/moment-with-langs.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/min\/min\/moment-with-langs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/min\/moment-with-langs.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/min\/moment-with-langs.min.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/min\/min\/moment-with-langs.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/min\/moment.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/min\/moment.min.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/min\/min\/moment.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/moment.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/moment.js",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/min\/moment-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/momentjs\/readme.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/momentjs\/readme.md",
+		"outputAbbreviatedPath": "\/deps\/momentjs\/readme.html",
+		"outputPathIsSetByUser": 0
+		},
 	"\/deps\/odometer\/docs\/api\/themes.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -344,6 +1155,35 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/main-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/main-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/main-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/maths.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/maths.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/maths.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/maths.md",
+		"outputAbbreviatedPath": "\/maths.html",
+		"outputPathIsSetByUser": 0
 		},
 	"\/min\/main-ck.js": {
 		"fileType": 64,
