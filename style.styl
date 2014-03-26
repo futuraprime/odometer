@@ -1,7 +1,10 @@
 @import 'nib';
 
-.large-sans {
+.large-serif {
   font-family: kepler-std-display, Georgia, serif;
+}
+.sans {
+  font-family: calluna-sans, Avenir, Helvetica Neue, Helvetica, sans-serif;
 }
 
 body {
@@ -9,18 +12,43 @@ body {
   background-color: #DFE2E6;
 }
 
+.content {
+  padding: 0 10%;
+}
+
 h1 {
-  @extend .large-sans;
+  @extend .large-serif;
   font-size: 60px;
   font-style: italic;
   line-height: 60px;
+  margin: 0;
+}
+h2 {
+  @extend .large-serif;
+  margin: 1em 0 0;
+}
+
+p {
+  margin: 0 0 1em;
+  max-width: 33em;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .odometers {
   text-align: right;
+  max-width: 35em;
+  margin: 0 auto;
+  @extend .sans;
+
+  h2 {
+    @extend .sans;
+    text-align: left;
+    border-bottom: 1px solid #B7B4B4;
+  }
 }
 
 .odometer {
-  @extend .large-sans;
+  @extend .large-serif;
   font-size: 50px;
 }

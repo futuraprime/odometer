@@ -19,20 +19,23 @@
 </head>
 <body>
   <h1>Universal Odometer</h1>
-  
-  <form action="#" id="age_form">
-    <input type="date" id="dob" name="dob"/>
-    <label for="dob">When were you born? (not stored)</label>
-    <button name="submit">Calculate</button>
-  </form>
+  <p>Even when you&rsquo;re sitting at your desk, you&rsquo;re hurtling through space at great speed. Just how fast is a matter of relativity: the Earth, for example, is whizzing round the Sun at a pretty good clip, but the Sun is moving around the Milky Way galaxy even faster. The galaxy itself is moving through space, and we can measure its speed against the radiation left by the Big Bang.</p>
+  <div class="content">
+    
+    <form action="#" id="age_form">
+      <input type="date" id="dob" name="dob"/>
+      <label for="dob">When were you born? (not stored)</label>
+      <button name="submit">Calculate</button>
+    </form>
 
-  <div class="odometers">
-    Relative to the Sun
-    <div class="odometer-line"><span id="rel_to_sun" class="odometer">0</span> miles</div>
-    Relative to the Milky Way
-    <div class="odometer-line"><span id="rel_to_galaxy" class="odometer">0</span> miles</div>
-    Relative to the Universe
-    <div class="odometer-line"><span id="rel_to_cbe" class="odometer">0</span> miles</div>
+    <div class="odometers">
+      <h2>Relative to the Sun</h2>
+      <div class="odometer-line"><span id="rel_to_sun" class="odometer">0</span> miles</div>
+      <h2>Relative to the Milky Way</h2>
+      <div class="odometer-line"><span id="rel_to_galaxy" class="odometer">0</span> miles</div>
+      <h2>Relative to the Universe</h2>
+      <div class="odometer-line"><span id="rel_to_cbe" class="odometer">0</span> miles</div>
+    </div>
   </div>
 
   <script src="js/main.js"></script>  

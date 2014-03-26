@@ -1,19 +1,44 @@
-.large-sans,
+.large-serif,
 h1,
+h2,
 .odometer {
   font-family: kepler-std-display, Georgia, serif;
+}
+.sans,
+.odometers,
+.odometers h2 {
+  font-family: calluna-sans, Avenir, Helvetica Neue, Helvetica, sans-serif;
 }
 body {
   font-family: kepler-std, Georgia, serif;
   background-color: #dfe2e6;
 }
+.content {
+  padding: 0 10%;
+}
 h1 {
   font-size: 60px;
   font-style: italic;
   line-height: 60px;
+  margin: 0;
+}
+h2 {
+  margin: 1em 0 0;
+}
+p {
+  margin: 0 0 1em;
+  max-width: 33em;
+  font-size: 18px;
+  line-height: 1.4;
 }
 .odometers {
   text-align: right;
+  max-width: 35em;
+  margin: 0 auto;
+}
+.odometers h2 {
+  text-align: left;
+  border-bottom: 1px solid #b7b4b4;
 }
 .odometer {
   font-size: 50px;
