@@ -1,5 +1,16 @@
+.large-sans,
+h1,
+.odometer {
+  font-family: kepler-std-display, Georgia, serif;
+}
 body {
   font-family: kepler-std, Georgia, serif;
+  background-color: #dfe2e6;
+}
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  line-height: 60px;
 }
 .odometers {
   text-align: right;

@@ -1,7 +1,19 @@
 @import 'nib';
 
+.large-sans {
+  font-family: kepler-std-display, Georgia, serif;
+}
+
 body {
   font-family: kepler-std, Georgia, serif;
+  background-color: #DFE2E6;
+}
+
+h1 {
+  @extend .large-sans;
+  font-size: 60px;
+  font-style: italic;
+  line-height: 60px;
 }
 
 .odometers {
@@ -9,5 +21,6 @@ body {
 }
 
 .odometer {
+  @extend .large-sans;
   font-size: 50px;
 }

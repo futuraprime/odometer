@@ -4,6 +4,13 @@
   <title>Universal Odometer</title>
   <script type="text/javascript" src="//use.typekit.net/kso0koy.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript">
+    window.odometerOptions = {
+      duration : 700,
+      format : '(,ddd)',
+      animation: 'count'
+    };
+  </script>
   <script src="deps/odometer/odometer.js"></script>
   <script src="deps/momentjs/moment.js"></script>
   <script src="deps/lodash/dist/lodash.js"></script>
@@ -13,10 +20,11 @@
 <body>
   <h1>Universal Odometer</h1>
   
-  <input type="number" name="age" id="age">
-  <label for="age">How old are you?</label><br>
-  <input type="date" id="dob" name="dob"/>
-  <label for="dob">When were you born? (not stored)</label>
+  <form action="#" id="age_form">
+    <input type="date" id="dob" name="dob"/>
+    <label for="dob">When were you born? (not stored)</label>
+    <button name="submit">Calculate</button>
+  </form>
 
   <div class="odometers">
     Relative to the Sun
