@@ -14,6 +14,10 @@ body {
 
 .content {
   padding: 0 10%;
+
+  @media (max-width: 480px) {
+    padding: 0 10px;
+  }
 }
 
 h1 {
@@ -22,10 +26,20 @@ h1 {
   font-style: italic;
   line-height: 60px;
   margin: 0;
+
+  @media (max-width: 480px) {
+    font-size: 16vw;
+    line-height: 16vw;
+  }
 }
 h2 {
   @extend .large-serif;
   margin: 1em 0 0;
+
+  @media (max-width: 480px) {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
 }
 
 p {
@@ -52,9 +66,14 @@ p {
 .odometer {
   @extend .large-serif;
   font-size: 50px;
+
+  @media (max-width: 480px) {
+    font-size: 8vw;
+  }
 }
 
 .notes-outer {
+  margin-top: 2em;
   text-align: right;
 }
 .notes {
@@ -63,7 +82,23 @@ p {
 }
 
 #age_form {
+  text-align: center;
 
+  #dob {
+    width: 10em;
+    font-size: 18px;
+    @extend .sans;
+    font-feature-settings: "lnum";
+    border: 1px solid #B7B4B4;
+  }
+  button {
+    border: none;
+    background-color: #821B0D;
+    color: white;
+    @extend .sans;
+    font-size: 16px;
+    padding: 5px 1em;
+  }
 }
 
 .credits {

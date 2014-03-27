@@ -7,6 +7,8 @@ h2,
 .sans,
 .odometers,
 .odometers h2,
+#age_form #dob,
+#age_form button,
 .credits {
   font-family: calluna-sans, Avenir, Helvetica Neue, Helvetica, sans-serif;
 }
@@ -17,14 +19,31 @@ body {
 .content {
   padding: 0 10%;
 }
+@media (max-width: 480px) {
+  .content {
+    padding: 0 10px;
+  }
+}
 h1 {
   font-size: 60px;
   font-style: italic;
   line-height: 60px;
   margin: 0;
 }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 16vw;
+    line-height: 16vw;
+  }
+}
 h2 {
   margin: 1em 0 0;
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
 }
 p {
   margin: 0 0 1em;
@@ -45,12 +64,34 @@ p {
 .odometer {
   font-size: 50px;
 }
+@media (max-width: 480px) {
+  .odometer {
+    font-size: 8vw;
+  }
+}
 .notes-outer {
+  margin-top: 2em;
   text-align: right;
 }
 .notes {
   display: inline-block;
   border-top: 1px solid #8a8585;
+}
+#age_form {
+  text-align: center;
+}
+#age_form #dob {
+  width: 10em;
+  font-size: 18px;
+  font-feature-settings: "lnum";
+  border: 1px solid #b7b4b4;
+}
+#age_form button {
+  border: none;
+  background-color: #821b0d;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 1em;
 }
 .credits {
   margin-top: 3em;

@@ -2,10 +2,12 @@
 <html>
 <head>
   <title>Universal Odometer</title>
+  <meta name="viewport" content="initial-scale=1,width=device-width">
   <script type="text/javascript" src="//use.typekit.net/kso0koy.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript">
     window.odometerOptions = {
+      auto: false,
       duration : 700,
       format : '(,ddd)',
       animation: 'count'
@@ -14,7 +16,11 @@
   <script src="deps/odometer/odometer.js"></script>
   <script src="deps/momentjs/moment.js"></script>
   <script src="deps/lodash/dist/lodash.js"></script>
+  <script src="deps/better-dom/dist/better-dom.js"></script>
+  <script src="deps/big.js/big.js"></script>
+  <!-- <script src="deps/better-dateinput-polyfill/dist/better-dateinput-polyfill.js"></script> -->
   <link rel="stylesheet" href="deps/odometer/themes/odometer-theme-minimal.css" />
+  <link rel="stylesheet" href="deps/better-dateinput-polyfill/dist/better-dateinput-polyfill.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,9 +29,9 @@
   <div class="content">
     
     <form action="#" id="age_form">
+      <label for="dob">When were you born? (not stored)</label><br>
       <input type="date" id="dob" name="dob"/>
-      <label for="dob">When were you born? (not stored)</label>
-      <button name="submit">Calculate</button>
+      <button name="submit">recalculate</button>
     </form>
 
     <div class="odometers">

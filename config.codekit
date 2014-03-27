@@ -2,6 +2,393 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16877",
 "files": {
+	"\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/better-dateinput-polyfill\/dist\/better-dateinput-polyfill.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/dist\/better-dateinput-polyfill.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/better-dateinput-polyfill\/dist\/better-dateinput-polyfill.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/dist\/better-dateinput-polyfill.js",
+		"outputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/dist\/min\/better-dateinput-polyfill-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dateinput-polyfill\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/min\/Gruntfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dateinput-polyfill\/i18n\/better-dateinput-polyfill.fr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/i18n\/better-dateinput-polyfill.fr.js",
+		"outputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/i18n\/min\/better-dateinput-polyfill.fr-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dateinput-polyfill\/i18n\/better-dateinput-polyfill.ru.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/i18n\/better-dateinput-polyfill.ru.js",
+		"outputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/i18n\/min\/better-dateinput-polyfill.ru-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dateinput-polyfill\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/better-dateinput-polyfill\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/README.md",
+		"outputAbbreviatedPath": "\/deps\/better-dateinput-polyfill\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/better-dom\/dist\/better-dom-legacy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dom\/dist\/better-dom-legacy.js",
+		"outputAbbreviatedPath": "\/deps\/better-dom\/dist\/min\/better-dom-legacy-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dom\/dist\/better-dom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dom\/dist\/better-dom.js",
+		"outputAbbreviatedPath": "\/deps\/better-dom\/dist\/min\/better-dom-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dom\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dom\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/deps\/better-dom\/min\/Gruntfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/better-dom\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/better-dom\/README.md",
+		"outputAbbreviatedPath": "\/deps\/better-dom\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/big.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/big.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/min\/big-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/big.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/big.min.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/min\/big.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/doc\/bigAPI.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/doc\/bigAPI.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/perf\/big-vs-bigdecimal.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/perf\/big-vs-bigdecimal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/perf\/bigtime.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/perf\/bigtime.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/perf\/min\/bigtime-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/perf\/lib\/bigdecimal_GWT\/bigdecimal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_GWT\/bigdecimal.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_GWT\/min\/bigdecimal-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/perf\/lib\/bigdecimal_GWT\/bugs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_GWT\/bugs.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_GWT\/min\/bugs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/perf\/lib\/bigdecimal_ICU4J\/BigDecimal-all-last.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_ICU4J\/BigDecimal-all-last.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_ICU4J\/min\/BigDecimal-all-last-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/perf\/lib\/bigdecimal_ICU4J\/BigDecimal-all-last.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_ICU4J\/BigDecimal-all-last.min.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/perf\/lib\/bigdecimal_ICU4J\/min\/BigDecimal-all-last.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/README.md",
+		"outputAbbreviatedPath": "\/deps\/big.js\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/test\/abs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/abs.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/abs-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/browser\/big-vs-number.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/browser\/big-vs-number.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/test\/browser\/every-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/browser\/every-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/test\/browser\/single-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/browser\/single-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/deps\/big.js\/test\/cmp.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/cmp.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/cmp-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/div.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/div.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/div-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/every-test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/every-test.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/every-test-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/minus.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/minus.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/minus-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/mod.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/mod.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/mod-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/plus.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/plus.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/plus-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/pow.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/pow.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/pow-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/round.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/round.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/round-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/sqrt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/sqrt.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/sqrt-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/times.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/times.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/times-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/toExponential.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/toExponential.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/toExponential-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/toFixed.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/toFixed.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/toFixed-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/toPrecision.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/toPrecision.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/toPrecision-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/deps\/big.js\/test\/toString.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deps\/big.js\/test\/toString.js",
+		"outputAbbreviatedPath": "\/deps\/big.js\/test\/min\/toString-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/deps\/lodash\/dist\/lodash.compat.js": {
 		"fileType": 64,
 		"ignore": 0,
