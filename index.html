@@ -19,7 +19,7 @@
 </head>
 <body>
   <h1>Universal Odometer</h1>
-  <p>Even when you&rsquo;re sitting at your desk, you&rsquo;re hurtling through space at great speed. Just how fast is a matter of relativity: the Earth, for example, is whizzing round the Sun at a pretty good clip, but the Sun is moving around the Milky Way galaxy even faster. The galaxy itself is moving through space, and we can measure its speed against the radiation left by the Big Bang.</p>
+  <p>Even when you&rsquo;re sitting at your desk, you&rsquo;re hurtling through space at great speed. Just how fast is a matter of how you measure: the Earth, for example, is whizzing round the Sun at a pretty good clip, but the Sun (and all the planets with it) moves around the Milky Way galaxy even faster. The galaxy itself is moving too, and we can measure its speed against the radiation left by the Big Bang.</p>
   <div class="content">
     
     <form action="#" id="age_form">
@@ -33,11 +33,21 @@
       <div class="odometer-line"><span id="rel_to_sun" class="odometer">0</span> miles</div>
       <h2>Relative to the Milky Way</h2>
       <div class="odometer-line"><span id="rel_to_galaxy" class="odometer">0</span> miles</div>
-      <h2>Relative to the Universe</h2>
+      <h2>Relative to the Universe*</h2>
       <div class="odometer-line"><span id="rel_to_cbe" class="odometer">0</span> miles</div>
+    </div>
+
+    <div class="notes-outer">
+      <div class="notes">
+        <small>*Specifically, relative to Cosmic Background Radiation.</small>
+      </div>
     </div>
   </div>
 
+  <footer class="credits">
+    Data from <a href="http://www.astrosociety.org/edu/publications/tnl/71/howfast.html">Astronomical Society of the Pacific</a> and <a href="http://www.scientificamerican.com/article/how-fast-is-the-earth-mov/">Scientific American</a>. Partly inspired by <a href="http://what-if.xkcd.com/86/">XKCD</a>.<br/>
+    A <a href="http://futuraprime.net/">futuraprime</a> production. <a href="http://twitter.com/futuraprime">@futuraprime</a>
+  </footer>
   <script src="js/main.js"></script>  
 </body>
 </html>
