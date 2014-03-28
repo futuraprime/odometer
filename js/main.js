@@ -1,4 +1,4 @@
-/*global Big, Odometer*/
+/*global Big, Odometer, _gaq*/
 (function() {
   'use strict';
 
@@ -65,5 +65,6 @@
     baseTime.time = new Date(dob);
     age = Math.round(age / 1000 / 60 / 60); // now we have it in hours
     calculateStellarDistances(age);
+    _gaq.push(['_trackEvent', 'odometer', 'setDate']);
   });
 })();
