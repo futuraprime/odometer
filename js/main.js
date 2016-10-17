@@ -9,6 +9,8 @@
   var rel_to_galaxy = document.getElementById('rel_to_galaxy');
   var rel_to_cbe = document.getElementById('rel_to_cbe');
 
+  var age_total = 0;
+
   if(window.innerWidth > 480) {
     // this is a clunky performance fix for mobile devices, basically
     var odometers = {
@@ -42,10 +44,10 @@
   // var speed_at_equator = 1037.6; // 0.463 km/s;
 
   function calculateStellarDistances(hours) {
-    hours = new Big(hours);
-    rel_to_sun.innerHTML = Math.round(speed_vs_sun.times(year_length).times(hours));
-    rel_to_galaxy.innerHTML = Math.round(speed_vs_galaxy.times(year_length).times(hours));
-    rel_to_cbe.innerHTML = Math.round(speed_vs_cbe.times(year_length).times(hours));
+    hours = new Big(hours + age_total);
+    rel_to_sun.innerHTML = Math.round(speed_vs_sun.times(hours));
+    rel_to_galaxy.innerHTML = Math.round(speed_vs_galaxy.times(hours));
+    rel_to_cbe.innerHTML = Math.round(speed_vs_cbe.times(hours));
   }
 
   function calculateStellarDistancesFromMS(milliseconds) {
@@ -64,7 +66,8 @@
     var age = new Date() - new Date(dob); // now we have it in milliseconds!
     baseTime.time = new Date(dob);
     age = Math.round(age / 1000 / 60 / 60); // now we have it in hours
-    calculateStellarDistances(age);
+    //calculateStellarDistances(age);
+    age_total = age;
     ga('send', 'event', 'odometer', 'setDate');
   });
 })();
